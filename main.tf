@@ -1,3 +1,4 @@
+###  Adding from Cli 
 provider "aws" {
   region = "ap-south-1"
 }
