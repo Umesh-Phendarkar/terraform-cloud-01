@@ -22,3 +22,15 @@ resource "aws_s3_bucket" "mys3bucket10" {
     enabled = true
   }
 }
+
+
+
+resource "aws_s3_bucket" "bucket100" {
+  bucket = "my-s3-bucket-03-11-2024--909098776666"
+  acl    = "private"
+  versioning {
+    enabled = true
+  }
+}
+
+
